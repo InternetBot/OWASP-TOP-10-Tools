@@ -76,7 +76,7 @@ def testing_access(test_url):
     return results
 
 def main():
-    test_url = 'http://www.itsecgames.com/'  # use a vulnerable website of choice
+    test_url = 'YOUR LINK GOES HERE '  # use a vulnerable website of choice - http://www.itsecgames.com/
     results = testing_access(test_url)
     
     for result in results:

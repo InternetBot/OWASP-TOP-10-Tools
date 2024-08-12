@@ -31,3 +31,5 @@ def scan_file(directory):
 
 scanned_resulut = scan_file(directory)
 print("Scan Results")
+
+for algorithm, files in scan_results.items():

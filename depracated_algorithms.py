@@ -28,3 +28,6 @@ def scan_file(directory):
     except Exception as e:
         print(f"Unable to access this directory {directory}: {e}")
         return None
+
+scanned_resulut = scan_file(directory)
+print("Scan Results")
